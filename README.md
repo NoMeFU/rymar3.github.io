@@ -1,14 +1,14 @@
 
-## 01. Прописуємо данні про себе щоб автори проекта знали хто вносив зміни електронна пошта повинна бути зареєстрована в github !!!
-	git config --global user.name "Rymar Viktor"
-	git config --global user.email "rymar@ukr.net"
-	
-## 02. Клонуємо сайт на свій комп
+
+## 01. Клонуємо сайт на свій комп
   	cd /c/intel  (GitBash)
 	cd c:\intel  (VSC)
 	git clone https://github.com/rymar3/rymar3.github.io.git
 	cd rymar3.github.io
-	
+	git remote set-url origin https://rymar:TOKEN@github.com/rymar3/rymar3.github.io.git
+## 02. Прописуємо данні про себе щоб автори проекта знали хто вносив зміни електронна пошта повинна бути зареєстрована в github !!!
+	git config --global user.name "Rymar Viktor"
+	git config --global user.email "rymar@ukr.net"	
 ## 03. 	Створюємо нову вітку:
 		git branch site
 ## 04.	Переходимо в вітку site :
