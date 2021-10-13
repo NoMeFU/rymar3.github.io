@@ -1,8 +1,8 @@
 
 
 ## 01. Клонуємо сайт на свій комп
-  	cd /c/intel  (GitBash)
-	cd c:\intel  (VSC)
+  	cd /c/intel  (для GitBash)
+	cd c:\intel  (для VSC)
 	git clone https://github.com/rymar3/rymar3.github.io.git
 	cd rymar3.github.io
 	git remote set-url origin https://rymar:TOKEN@github.com/rymar3/rymar3.github.io.git
